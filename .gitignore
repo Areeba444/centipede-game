@@ -1,0 +1,41 @@
+# Ignore build output
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.log
+
+# Ignore Visual Studio folders
+.vscode/
+.vs/
+Debug/
+Release/
+x64/
+ipch/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore CMake or other build tools (if any)
+CMakeFiles/
+CMakeCache.txt
+
+# Ignore SFML DLLs if you add them locally (optional)
+*.dll
+
+# Ignore generated files
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.tlog
+*.lastbuildstate
+
+# Ignore backup files
+*~
+*.bak
+*.tmp
